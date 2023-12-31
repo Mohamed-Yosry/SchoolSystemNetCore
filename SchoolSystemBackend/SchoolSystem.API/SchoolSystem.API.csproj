@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolSystem.Controllers\SchoolSystem.Controllers.csproj" />
+    <ProjectReference Include="..\SchoolSystem.Domain\SchoolSystem.Domain.csproj" />
+    <ProjectReference Include="..\SchoolSystem.PresistenceDB\SchoolSystem.PresistenceDB.csproj" />
+    <ProjectReference Include="..\SchoolSystem.Service.Contract\SchoolSystem.Service.Contract.csproj" />
+    <ProjectReference Include="..\SchoolSystem.Service\SchoolSystem.Service.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\bin\Debug\net6.0\SchoolSystem.Controllers.deps.json
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\bin\Debug\net6.0\SchoolSystem.Controllers.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\bin\Debug\net6.0\SchoolSystem.Controllers.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\bin\Debug\net6.0\SchoolSystem.Domain.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\bin\Debug\net6.0\SchoolSystem.Service.Contract.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\bin\Debug\net6.0\SchoolSystem.Domain.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\bin\Debug\net6.0\SchoolSystem.Service.Contract.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.csproj.AssemblyReference.cache
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.AssemblyInfoInputs.cache
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.AssemblyInfo.cs
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.csproj.CoreCompileInputs.cache
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.csproj.CopyComplete
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\refint\SchoolSystem.Controllers.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\ref\SchoolSystem.Controllers.dll

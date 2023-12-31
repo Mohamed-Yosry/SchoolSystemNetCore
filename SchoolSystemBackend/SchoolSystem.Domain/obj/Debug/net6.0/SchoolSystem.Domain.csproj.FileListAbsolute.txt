@@ -1,0 +1,12 @@
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\bin\Debug\net6.0\SchoolSystem.Domain.deps.json
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\bin\Debug\net6.0\SchoolSystem.Domain.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\bin\Debug\net6.0\SchoolSystem.Domain.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\SchoolSystem.Domain.csproj.AssemblyReference.cache
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\SchoolSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\SchoolSystem.Domain.AssemblyInfoInputs.cache
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\SchoolSystem.Domain.AssemblyInfo.cs
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\SchoolSystem.Domain.csproj.CoreCompileInputs.cache
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\SchoolSystem.Domain.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\refint\SchoolSystem.Domain.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\SchoolSystem.Domain.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\ref\SchoolSystem.Domain.dll

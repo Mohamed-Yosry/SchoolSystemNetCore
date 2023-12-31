@@ -1,0 +1,15 @@
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service.Contract\bin\Debug\net6.0\SchoolSystem.Service.Contract.deps.json
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service.Contract\bin\Debug\net6.0\SchoolSystem.Service.Contract.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service.Contract\bin\Debug\net6.0\SchoolSystem.Service.Contract.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service.Contract\bin\Debug\net6.0\SchoolSystem.Domain.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service.Contract\bin\Debug\net6.0\SchoolSystem.Domain.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service.Contract\obj\Debug\net6.0\SchoolSystem.Service.Contract.csproj.AssemblyReference.cache
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service.Contract\obj\Debug\net6.0\SchoolSystem.Service.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service.Contract\obj\Debug\net6.0\SchoolSystem.Service.Contract.AssemblyInfoInputs.cache
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service.Contract\obj\Debug\net6.0\SchoolSystem.Service.Contract.AssemblyInfo.cs
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service.Contract\obj\Debug\net6.0\SchoolSystem.Service.Contract.csproj.CoreCompileInputs.cache
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service.Contract\obj\Debug\net6.0\SchoolSystem.Service.Contract.csproj.CopyComplete
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service.Contract\obj\Debug\net6.0\SchoolSystem.Service.Contract.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service.Contract\obj\Debug\net6.0\refint\SchoolSystem.Service.Contract.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service.Contract\obj\Debug\net6.0\SchoolSystem.Service.Contract.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service.Contract\obj\Debug\net6.0\ref\SchoolSystem.Service.Contract.dll

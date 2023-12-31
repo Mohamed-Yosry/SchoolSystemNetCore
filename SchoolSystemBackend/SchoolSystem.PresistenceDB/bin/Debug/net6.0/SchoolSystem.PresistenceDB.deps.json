@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SchoolSystem.PresistenceDB/1.0.0": {
+        "dependencies": {
+          "SchoolSystem.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SchoolSystem.PresistenceDB.dll": {}
+        }
+      },
+      "SchoolSystem.Domain/1.0.0": {
+        "runtime": {
+          "SchoolSystem.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SchoolSystem.PresistenceDB/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SchoolSystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

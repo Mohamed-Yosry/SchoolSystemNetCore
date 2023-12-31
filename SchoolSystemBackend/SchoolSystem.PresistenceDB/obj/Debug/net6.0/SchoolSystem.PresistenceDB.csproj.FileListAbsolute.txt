@@ -1,0 +1,15 @@
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\bin\Debug\net6.0\SchoolSystem.PresistenceDB.deps.json
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\bin\Debug\net6.0\SchoolSystem.PresistenceDB.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\bin\Debug\net6.0\SchoolSystem.PresistenceDB.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\bin\Debug\net6.0\SchoolSystem.Domain.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\bin\Debug\net6.0\SchoolSystem.Domain.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.csproj.AssemblyReference.cache
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.AssemblyInfoInputs.cache
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.AssemblyInfo.cs
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.csproj.CoreCompileInputs.cache
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.csproj.CopyComplete
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\refint\SchoolSystem.PresistenceDB.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\ref\SchoolSystem.PresistenceDB.dll

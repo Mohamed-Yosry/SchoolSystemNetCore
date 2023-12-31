@@ -1,0 +1,17 @@
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Service.deps.json
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Service.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Service.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Domain.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Service.Contract.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Service.Contract.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Domain.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.csproj.AssemblyReference.cache
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.AssemblyInfoInputs.cache
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.AssemblyInfo.cs
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.csproj.CoreCompileInputs.cache
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.csproj.CopyComplete
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\refint\SchoolSystem.Service.dll
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.pdb
+D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\ref\SchoolSystem.Service.dll

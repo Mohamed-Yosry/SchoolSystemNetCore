@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SchoolSystem.Service.Contract/1.0.0": {
+        "dependencies": {
+          "SchoolSystem.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SchoolSystem.Service.Contract.dll": {}
+        }
+      },
+      "SchoolSystem.Domain/1.0.0": {
+        "runtime": {
+          "SchoolSystem.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SchoolSystem.Service.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SchoolSystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
