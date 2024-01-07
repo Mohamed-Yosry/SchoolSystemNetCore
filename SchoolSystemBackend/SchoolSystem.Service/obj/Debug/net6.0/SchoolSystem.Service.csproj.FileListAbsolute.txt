@@ -15,3 +15,20 @@ D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\ne
 D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\refint\SchoolSystem.Service.dll
 D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.pdb
 D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\ref\SchoolSystem.Service.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Service.deps.json
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Service.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Service.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Domain.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Service.Contract.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Service.Contract.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Domain.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.csproj.AssemblyReference.cache
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.AssemblyInfoInputs.cache
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.AssemblyInfo.cs
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.csproj.CoreCompileInputs.cache
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.csproj.CopyComplete
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\refint\SchoolSystem.Service.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\SchoolSystem.Service.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\obj\Debug\net6.0\ref\SchoolSystem.Service.dll

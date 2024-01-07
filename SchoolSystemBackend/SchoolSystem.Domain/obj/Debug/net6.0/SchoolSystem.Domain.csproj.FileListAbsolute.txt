@@ -10,3 +10,15 @@ D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net
 D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\refint\SchoolSystem.Domain.dll
 D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\SchoolSystem.Domain.pdb
 D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\ref\SchoolSystem.Domain.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain\bin\Debug\net6.0\SchoolSystem.Domain.deps.json
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain\bin\Debug\net6.0\SchoolSystem.Domain.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain\bin\Debug\net6.0\SchoolSystem.Domain.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\SchoolSystem.Domain.csproj.AssemblyReference.cache
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\SchoolSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\SchoolSystem.Domain.AssemblyInfoInputs.cache
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\SchoolSystem.Domain.AssemblyInfo.cs
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\SchoolSystem.Domain.csproj.CoreCompileInputs.cache
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\SchoolSystem.Domain.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\refint\SchoolSystem.Domain.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\SchoolSystem.Domain.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain\obj\Debug\net6.0\ref\SchoolSystem.Domain.dll

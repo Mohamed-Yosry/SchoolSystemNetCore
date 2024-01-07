@@ -13,3 +13,20 @@ D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\De
 D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\refint\SchoolSystem.PresistenceDB.dll
 D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.pdb
 D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\ref\SchoolSystem.PresistenceDB.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\bin\Debug\net6.0\SchoolSystem.PresistenceDB.deps.json
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\bin\Debug\net6.0\SchoolSystem.PresistenceDB.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\bin\Debug\net6.0\SchoolSystem.PresistenceDB.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\bin\Debug\net6.0\SchoolSystem.Domain.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\bin\Debug\net6.0\SchoolSystem.Domain.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.csproj.AssemblyReference.cache
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.GeneratedMSBuildEditorConfig.editorconfig
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.AssemblyInfoInputs.cache
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.AssemblyInfo.cs
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.csproj.CoreCompileInputs.cache
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.csproj.CopyComplete
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\refint\SchoolSystem.PresistenceDB.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\ref\SchoolSystem.PresistenceDB.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\bin\Debug\net6.0\SchoolSystem.PresistenceDB.runtimeconfig.json
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.PresistenceDB\obj\Debug\net6.0\SchoolSystem.PresistenceDB.genruntimeconfig.cache

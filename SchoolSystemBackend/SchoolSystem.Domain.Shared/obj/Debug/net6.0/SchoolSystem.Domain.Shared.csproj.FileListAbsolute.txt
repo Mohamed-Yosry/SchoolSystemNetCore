@@ -1,0 +1,12 @@
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain.Shared\bin\Debug\net6.0\SchoolSystem.Domain.Shared.deps.json
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain.Shared\bin\Debug\net6.0\SchoolSystem.Domain.Shared.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain.Shared\bin\Debug\net6.0\SchoolSystem.Domain.Shared.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain.Shared\obj\Debug\net6.0\SchoolSystem.Domain.Shared.csproj.AssemblyReference.cache
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain.Shared\obj\Debug\net6.0\SchoolSystem.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain.Shared\obj\Debug\net6.0\SchoolSystem.Domain.Shared.AssemblyInfoInputs.cache
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain.Shared\obj\Debug\net6.0\SchoolSystem.Domain.Shared.AssemblyInfo.cs
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain.Shared\obj\Debug\net6.0\SchoolSystem.Domain.Shared.csproj.CoreCompileInputs.cache
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain.Shared\obj\Debug\net6.0\SchoolSystem.Domain.Shared.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain.Shared\obj\Debug\net6.0\refint\SchoolSystem.Domain.Shared.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain.Shared\obj\Debug\net6.0\SchoolSystem.Domain.Shared.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Domain.Shared\obj\Debug\net6.0\ref\SchoolSystem.Domain.Shared.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain.Shared\\SchoolSystem.Domain.Shared.csproj": {}
+    "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain.Shared\\SchoolSystem.Domain.Shared.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain.Shared\\SchoolSystem.Domain.Shared.csproj": {
+    "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain.Shared\\SchoolSystem.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain.Shared\\SchoolSystem.Domain.Shared.csproj",
+        "projectUniqueName": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain.Shared\\SchoolSystem.Domain.Shared.csproj",
         "projectName": "SchoolSystem.Domain.Shared",
-        "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain.Shared\\SchoolSystem.Domain.Shared.csproj",
+        "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain.Shared\\SchoolSystem.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain.Shared\\obj\\",
+        "outputPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",

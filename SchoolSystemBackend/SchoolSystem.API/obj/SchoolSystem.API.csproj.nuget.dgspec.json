@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.API\\SchoolSystem.API.csproj": {}
+    "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.API\\SchoolSystem.API.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.API\\SchoolSystem.API.csproj": {
+    "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.API\\SchoolSystem.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.API\\SchoolSystem.API.csproj",
+        "projectUniqueName": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.API\\SchoolSystem.API.csproj",
         "projectName": "SchoolSystem.API",
-        "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.API\\SchoolSystem.API.csproj",
+        "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.API\\SchoolSystem.API.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.API\\obj\\",
+        "outputPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,20 +28,20 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Controllers\\SchoolSystem.Controllers.csproj": {
-                "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Controllers\\SchoolSystem.Controllers.csproj"
+              "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Controllers\\SchoolSystem.Controllers.csproj": {
+                "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Controllers\\SchoolSystem.Controllers.csproj"
               },
-              "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
-                "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj"
+              "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
+                "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj"
               },
-              "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj": {
-                "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj"
+              "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj": {
+                "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj"
               },
-              "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj": {
-                "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj"
+              "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj": {
+                "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj"
               },
-              "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service\\SchoolSystem.Service.csproj": {
-                "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service\\SchoolSystem.Service.csproj"
+              "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service\\SchoolSystem.Service.csproj": {
+                "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service\\SchoolSystem.Service.csproj"
               }
             }
           }
@@ -56,6 +56,32 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -84,14 +110,14 @@
         }
       }
     },
-    "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Controllers\\SchoolSystem.Controllers.csproj": {
+    "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Controllers\\SchoolSystem.Controllers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Controllers\\SchoolSystem.Controllers.csproj",
+        "projectUniqueName": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Controllers\\SchoolSystem.Controllers.csproj",
         "projectName": "SchoolSystem.Controllers",
-        "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Controllers\\SchoolSystem.Controllers.csproj",
+        "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Controllers\\SchoolSystem.Controllers.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Controllers\\obj\\",
+        "outputPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Controllers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -108,11 +134,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
-                "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj"
+              "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
+                "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj"
               },
-              "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj": {
-                "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj"
+              "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj": {
+                "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj"
               }
             }
           }
@@ -126,6 +152,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -146,14 +178,14 @@
         }
       }
     },
-    "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
+    "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj",
+        "projectUniqueName": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj",
         "projectName": "SchoolSystem.Domain",
-        "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj",
+        "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\obj\\",
+        "outputPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -201,14 +233,14 @@
         }
       }
     },
-    "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj": {
+    "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj",
+        "projectUniqueName": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj",
         "projectName": "SchoolSystem.PresistenceDB",
-        "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj",
+        "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\obj\\",
+        "outputPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -225,8 +257,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
-                "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj"
+              "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
+                "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj"
               }
             }
           }
@@ -240,6 +272,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -260,14 +308,14 @@
         }
       }
     },
-    "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj": {
+    "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj",
+        "projectUniqueName": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj",
         "projectName": "SchoolSystem.Service.Contract",
-        "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj",
+        "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\obj\\",
+        "outputPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -284,8 +332,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
-                "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj"
+              "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
+                "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj"
               }
             }
           }
@@ -299,6 +347,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -319,14 +381,14 @@
         }
       }
     },
-    "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service\\SchoolSystem.Service.csproj": {
+    "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service\\SchoolSystem.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service\\SchoolSystem.Service.csproj",
+        "projectUniqueName": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service\\SchoolSystem.Service.csproj",
         "projectName": "SchoolSystem.Service",
-        "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service\\SchoolSystem.Service.csproj",
+        "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service\\SchoolSystem.Service.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service\\obj\\",
+        "outputPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -343,8 +405,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj": {
-                "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj"
+              "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj": {
+                "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj"
               }
             }
           }
@@ -358,6 +420,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

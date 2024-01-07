@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj": {}
+    "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
+    "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj",
+        "projectUniqueName": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj",
         "projectName": "SchoolSystem.Domain",
-        "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj",
+        "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\obj\\",
+        "outputPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj": {
+    "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj",
+        "projectUniqueName": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj",
         "projectName": "SchoolSystem.Service.Contract",
-        "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj",
+        "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\SchoolSystem.Service.Contract.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\obj\\",
+        "outputPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Service.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
-                "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj"
+              "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
+                "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj"
               }
             }
           }
@@ -98,6 +98,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

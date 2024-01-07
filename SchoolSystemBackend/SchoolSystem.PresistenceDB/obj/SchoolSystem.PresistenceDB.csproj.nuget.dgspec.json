@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj": {}
+    "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
+    "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj",
+        "projectUniqueName": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj",
         "projectName": "SchoolSystem.Domain",
-        "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj",
+        "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\obj\\",
+        "outputPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj": {
+    "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj",
+        "projectUniqueName": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj",
         "projectName": "SchoolSystem.PresistenceDB",
-        "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj",
+        "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\SchoolSystem.PresistenceDB.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\obj\\",
+        "outputPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.PresistenceDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
-                "projectPath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj"
+              "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
+                "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj"
               }
             }
           }
@@ -98,6 +98,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

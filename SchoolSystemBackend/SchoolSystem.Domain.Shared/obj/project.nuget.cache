@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BVe8F4eMrhQjCukeQKonkGKZWkmshufZfUGR2E+cvig3K0etmoanQA5fRlHkvqU8CsFXdOP3RKvX7NbyV839lw==",
+  "dgSpecHash": "l1gWpcL59x/1mt8Hid+kJ2bKufvEWZWPqOKenHnSlLQrvSCO/WDfgmHHZi8Za21h0ADbWCt0RfOfL96a45TI1Q==",
   "success": true,
-  "projectFilePath": "D:\\Coding\\DOT NET Projects\\SchoolSystemBackend\\SchoolSystem.Domain.Shared\\SchoolSystem.Domain.Shared.csproj",
+  "projectFilePath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain.Shared\\SchoolSystem.Domain.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

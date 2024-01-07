@@ -15,3 +15,20 @@ D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debu
 D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\refint\SchoolSystem.Controllers.dll
 D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.pdb
 D:\Coding\DOT NET Projects\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\ref\SchoolSystem.Controllers.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\bin\Debug\net6.0\SchoolSystem.Controllers.deps.json
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\bin\Debug\net6.0\SchoolSystem.Controllers.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\bin\Debug\net6.0\SchoolSystem.Controllers.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\bin\Debug\net6.0\SchoolSystem.Domain.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\bin\Debug\net6.0\SchoolSystem.Service.Contract.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\bin\Debug\net6.0\SchoolSystem.Domain.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\bin\Debug\net6.0\SchoolSystem.Service.Contract.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.csproj.AssemblyReference.cache
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.GeneratedMSBuildEditorConfig.editorconfig
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.AssemblyInfoInputs.cache
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.AssemblyInfo.cs
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.csproj.CoreCompileInputs.cache
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.csproj.CopyComplete
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\refint\SchoolSystem.Controllers.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\SchoolSystem.Controllers.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Controllers\obj\Debug\net6.0\ref\SchoolSystem.Controllers.dll
