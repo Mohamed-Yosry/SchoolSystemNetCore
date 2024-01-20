@@ -16,8 +16,8 @@ namespace SchoolSystem.Domain.Models.AuthenticationModels
         public string Token { get; set; }
         public DateTime ExpiersOn { get; set; }
         public IList<string> Roles { get; set; }
-        //public DateTime RefreshTokenExpireation { get; set; }
-        //[JsonIgnore]
-        //public string? RefreshToken { get; set; }
+        public DateTime RefreshTokenExpireation { get; set; }
+        [JsonIgnore]
+        public string? RefreshToken { get; set; }
     }
 }

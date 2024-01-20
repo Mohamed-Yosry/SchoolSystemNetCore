@@ -1118,6 +1118,10 @@
         }
       },
       "SchoolSystem.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.25"
+        },
         "runtime": {
           "SchoolSystem.Domain.dll": {}
         }
@@ -1125,6 +1129,7 @@
       "SchoolSystem.PresistenceDB/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
+          "Microsoft.EntityFrameworkCore": "6.0.25",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.25",
           "SchoolSystem.Domain": "1.0.0"
         },

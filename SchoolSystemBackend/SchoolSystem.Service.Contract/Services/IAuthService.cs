@@ -11,8 +11,10 @@ namespace SchoolSystem.Service.Contract.Services
 {
     public interface IAuthService
     {
-        Task<JwtSecurityToken> CreateJwtToken(IdentityUser user);
+        Task<JwtSecurityToken> CreateJwtToken(ApplicationUser user);
         Task<AuthModel> RegisterUser(RegisterModel registerModel);
         Task<AuthModel> GetTokenAsync(LoginModel loginModel);
+        Task<AuthModel> RefreshTokenAsync(string token);
+        Task<bool> RevokeTokenAsync(string token);
     }
 }
