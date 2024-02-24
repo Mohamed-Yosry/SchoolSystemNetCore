@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HRD7IQ9Y6sxZzucPX2ezK/f8+0bDO5TdqhpD6SBdFZb8O003EDrCmpU/O6S45SFPd2Q3K9ntIFRoBv727Te83w==",
+  "dgSpecHash": "dN8QSyKa5wv0T5plkgO8k9z9chj0aqB26Ge9hlU550OWwqEZLDytoOahsBdiweUztb8KQnCTPHUvlM8K0KrXDg==",
   "success": true,
   "projectFilePath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Controllers\\SchoolSystem.Controllers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moham\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\moham\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.26\\microsoft.aspnetcore.authentication.google.6.0.26.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.25\\microsoft.aspnetcore.cryptography.internal.6.0.25.nupkg.sha512",

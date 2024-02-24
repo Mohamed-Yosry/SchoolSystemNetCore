@@ -1,13 +1,23 @@
-﻿using SchoolSystem.Service.Contract.Mappers;
+﻿using AutoMapper;
+using SchoolSystem.Service.Contract.Mappers;
 
-namespace SchoolSystem.API.MapperConfiguration
+namespace SchoolSystem.API.AutoMapperConfiguration
 {
-    public static class MapperConfiguration
+    public static class AutoMapperConfiguration
     {
-        public static IServiceCollection AddMappersProfiles(this IServiceCollection serviceDescriptors)
+        public static IMapper AddMappersProfiles()
         {
-            serviceDescriptors.AddAutoMapper(typeof(IdentityUserToRegisterModelMapper));
-            return serviceDescriptors;
+            var mapperConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new CoursesMappingProfile());
+                mc.AddProfile(new IdentityUserToRegisterModelMapper());
+                mc.AddProfile(new RoleMappingProfile());
+                mc.AddProfile(new UsersMappingProfile());
+            });
+
+            IMapper mapper = mapperConfig.CreateMapper();
+
+            return mapper;
         }
     }
 }

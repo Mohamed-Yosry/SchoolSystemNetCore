@@ -54,6 +54,22 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.Google/6.0.26": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Authorization/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1529,6 +1545,7 @@
           "AutoMapper": "12.0.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
           "SchoolSystem.Domain": "1.0.0",
+          "SchoolSystem.ViewModels": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "7.0.3"
         },
         "compile": {
@@ -1536,6 +1553,16 @@
         },
         "runtime": {
           "bin/placeholder/SchoolSystem.Service.Contract.dll": {}
+        }
+      },
+      "SchoolSystem.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SchoolSystem.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SchoolSystem.ViewModels.dll": {}
         }
       }
     }
@@ -1580,6 +1607,21 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.xml",
         "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Google/6.0.26": {
+      "sha512": "jKHZ9qL7IcVtsxFRy7E4N+dAAgUTM6QhlGSCWS0GSNL0mU/JifQzDDMUOouY5NPnOH/idv+dJZRttDV/jEx6Dw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.google/6.0.26",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.xml",
+        "microsoft.aspnetcore.authentication.google.6.0.26.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.google.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authorization/2.2.0": {
@@ -4728,10 +4770,16 @@
       "type": "project",
       "path": "../SchoolSystem.Service.Contract/SchoolSystem.Service.Contract.csproj",
       "msbuildProject": "../SchoolSystem.Service.Contract/SchoolSystem.Service.Contract.csproj"
+    },
+    "SchoolSystem.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../SchoolSystem.ViewModels/SchoolSystem.ViewModels.csproj",
+      "msbuildProject": "../SchoolSystem.ViewModels/SchoolSystem.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.AspNetCore.Authentication.Google >= 6.0.26",
       "Microsoft.AspNetCore.Mvc.Core >= 2.2.5",
       "SchoolSystem.Domain >= 1.0.0",
       "SchoolSystem.Service.Contract >= 1.0.0"
@@ -4783,6 +4831,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": {
+            "target": "Package",
+            "version": "[6.0.26, )"
+          },
           "Microsoft.AspNetCore.Mvc.Core": {
             "target": "Package",
             "version": "[2.2.5, )"

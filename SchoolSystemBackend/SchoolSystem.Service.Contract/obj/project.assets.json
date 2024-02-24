@@ -478,6 +478,16 @@
         "runtime": {
           "bin/placeholder/SchoolSystem.Domain.dll": {}
         }
+      },
+      "SchoolSystem.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SchoolSystem.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SchoolSystem.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -1132,6 +1142,11 @@
       "type": "project",
       "path": "../SchoolSystem.Domain/SchoolSystem.Domain.csproj",
       "msbuildProject": "../SchoolSystem.Domain/SchoolSystem.Domain.csproj"
+    },
+    "SchoolSystem.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../SchoolSystem.ViewModels/SchoolSystem.ViewModels.csproj",
+      "msbuildProject": "../SchoolSystem.ViewModels/SchoolSystem.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1139,6 +1154,7 @@
       "AutoMapper >= 12.0.1",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.25",
       "SchoolSystem.Domain >= 1.0.0",
+      "SchoolSystem.ViewModels >= 1.0.0",
       "System.IdentityModel.Tokens.Jwt >= 7.0.3"
     ]
   },
@@ -1171,6 +1187,9 @@
           "projectReferences": {
             "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj": {
               "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.Domain\\SchoolSystem.Domain.csproj"
+            },
+            "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.ViewModels\\SchoolSystem.ViewModels.csproj": {
+              "projectPath": "E:\\My-Github\\SchoolSystemNetCore\\SchoolSystemBackend\\SchoolSystem.ViewModels\\SchoolSystem.ViewModels.csproj"
             }
           }
         }

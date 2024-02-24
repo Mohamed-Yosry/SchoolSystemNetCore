@@ -1,10 +1,13 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using SchoolSystem.API.MapperConfiguration;
+using SchoolSystem.API.AutoMapperConfiguration;
 using SchoolSystem.Domain.Models.AuthenticationModels;
 using SchoolSystem.PresistenceDB.DbContext;
+using SchoolSystem.Service;
+using SchoolSystem.Service.Contract;
 using SchoolSystem.Service.Contract.Services;
 using SchoolSystem.Service.Services;
 using System.Text;
@@ -12,6 +15,20 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+// Add cors
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:4200")
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials();
+        });
+});
 
 // set the JWT model from appsetting
 builder.Services.Configure<JWT>(builder.Configuration.GetSection("JWT"));
@@ -43,13 +60,23 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:Key"])),
         ClockSkew = TimeSpan.Zero
     };
+}).AddGoogle(options =>
+{
+    options.ClientId = builder.Configuration["GoogleProvider:ClientId"];
+    options.ClientSecret = builder.Configuration["GoogleProvider:ClinetSecret"];
 });
 
 // DI
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddTransient<IRoleService, RoleService>();
+builder.Services.AddTransient<ICourseService, CourseService>();
+builder.Services.AddTransient<IUserService, UserService>();
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 
 // add auto mapper
-builder.Services.AddMappersProfiles();
+IMapper mapper = AutoMapperConfiguration.AddMappersProfiles();
+builder.Services.AddSingleton(mapper);
+//builder.Services.AddMappersProfiles();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -64,6 +91,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors(MyAllowSpecificOrigins);
 
 app.UseHttpsRedirection();
 

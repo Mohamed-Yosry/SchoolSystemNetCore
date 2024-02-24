@@ -10,6 +10,7 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "Microsoft.AspNetCore.Authentication.Google": "6.0.26",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.25",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
           "Microsoft.EntityFrameworkCore.Design": "6.0.25",
@@ -68,6 +69,14 @@
           "Microsoft.AspNetCore.Authentication.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http": "2.2.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0"
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/6.0.26": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "6.0.26.0",
+            "fileVersion": "6.0.2623.60506"
+          }
         }
       },
       "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.25": {
@@ -1109,6 +1118,7 @@
       },
       "SchoolSystem.Controllers/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": "6.0.26",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "SchoolSystem.Domain": "1.0.0",
           "SchoolSystem.Service.Contract": "1.0.0"
@@ -1140,6 +1150,7 @@
       "SchoolSystem.Service/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
+          "SchoolSystem.PresistenceDB": "1.0.0",
           "SchoolSystem.Service.Contract": "1.0.0"
         },
         "runtime": {
@@ -1151,10 +1162,16 @@
           "AutoMapper": "12.0.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
           "SchoolSystem.Domain": "1.0.0",
+          "SchoolSystem.ViewModels": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "7.0.3"
         },
         "runtime": {
           "SchoolSystem.Service.Contract.dll": {}
+        }
+      },
+      "SchoolSystem.ViewModels/1.0.0": {
+        "runtime": {
+          "SchoolSystem.ViewModels.dll": {}
         }
       }
     }
@@ -1199,6 +1216,13 @@
       "sha512": "sha512-XlVJzJ5wPOYW+Y0J6Q/LVTEyfS4ssLXmt60T0SPP+D8abVhBTl+cgw2gDHlyKYIkcJg7btMVh383NDkMVqD/fg==",
       "path": "microsoft.aspnetcore.authentication.core/2.2.0",
       "hashPath": "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/6.0.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jKHZ9qL7IcVtsxFRy7E4N+dAAgUTM6QhlGSCWS0GSNL0mU/JifQzDDMUOouY5NPnOH/idv+dJZRttDV/jEx6Dw==",
+      "path": "microsoft.aspnetcore.authentication.google/6.0.26",
+      "hashPath": "microsoft.aspnetcore.authentication.google.6.0.26.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.25": {
       "type": "package",
@@ -2005,6 +2029,11 @@
       "sha512": ""
     },
     "SchoolSystem.Service.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SchoolSystem.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

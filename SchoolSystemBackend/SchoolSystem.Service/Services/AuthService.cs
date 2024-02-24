@@ -130,8 +130,13 @@ namespace SchoolSystem.Service.Services
             var emailExist = await _userManager.FindByEmailAsync(registerModel.Email);
             if (emailExist != null)
                 return new AuthModel { Message = "Email Exist" };
+            // check the role existence
+            var roleExist = await _roleManager.RoleExistsAsync(registerModel.role);
+            if(!roleExist)
+                return new AuthModel { Message = "Role doesn't Exist" };
             // create user
             var user = _mapper.Map<ApplicationUser>(registerModel);
+            user.RefreshTokens = new List<RefreshTokenModel>();
             var result = await _userManager.CreateAsync(user,registerModel.Password);
 
             if (!result.Succeeded)
@@ -141,10 +146,9 @@ namespace SchoolSystem.Service.Services
                     error += err.Description;
                 return new AuthModel { Message = error };
             }
-
             // create the jwt token
             var token = await CreateJwtToken(user);
-            return new AuthModel
+            var authModel = new AuthModel
             {
                 Message = "User Created",
                 Email = user.Email,
@@ -152,8 +156,29 @@ namespace SchoolSystem.Service.Services
                 Roles = new List<string>(),
                 ExpiersOn = token.ValidTo,
                 IsAuthenticated = true,
-                Token = new JwtSecurityTokenHandler().WriteToken(token),
+                Token = new JwtSecurityTokenHandler().WriteToken(token)
             };
+
+            // genreate refesh token
+            if (user.RefreshTokens.Any(token => token.IsActive))
+            {
+                var refreshToken = user.RefreshTokens.FirstOrDefault(token => token.IsActive);
+                authModel.RefreshToken = refreshToken.Token;
+                authModel.RefreshTokenExpireation = refreshToken.ExpiriesOn;
+            }
+            else
+            {
+                var refreshToken = GetRefreshToken();
+                authModel.RefreshToken = refreshToken.Token;
+                authModel.RefreshTokenExpireation = refreshToken.ExpiriesOn;
+                var RefreshTokens = user.RefreshTokens.ToList();
+                RefreshTokens.Add(refreshToken);
+                user.RefreshTokens = RefreshTokens;
+                await _userManager.UpdateAsync(user);
+            }
+            // add user to role
+            var addRole = await _userManager.AddToRoleAsync(user, registerModel.role);
+            return authModel;
         }
         /// <summary>
         /// get new access token using refresh token and create new refresh token
@@ -221,7 +246,6 @@ namespace SchoolSystem.Service.Services
             await _userManager.UpdateAsync(user);
             return true;
         }
-
         /// <summary>
         /// Genereate new Refresh tokem model
         /// </summary>

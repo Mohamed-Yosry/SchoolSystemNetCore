@@ -7,5 +7,6 @@ namespace SchoolSystem.Domain.Models.AuthenticationModels
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public IEnumerable<RefreshTokenModel>? RefreshTokens { get; set; }
+        public IEnumerable<Course> Courses { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using SchoolSystem.Domain.Models;
 using SchoolSystem.Domain.Models.AuthenticationModels;
 
 namespace SchoolSystem.PresistenceDB.DbContext
@@ -10,5 +11,6 @@ namespace SchoolSystem.PresistenceDB.DbContext
         {
 
         }
+        public DbSet<Course> Courses { get; set; }
     }
 }

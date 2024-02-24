@@ -11,6 +11,7 @@
           "AutoMapper": "12.0.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
           "SchoolSystem.Domain": "1.0.0",
+          "SchoolSystem.ViewModels": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "7.0.3"
         },
         "runtime": {
@@ -305,6 +306,11 @@
         "runtime": {
           "SchoolSystem.Domain.dll": {}
         }
+      },
+      "SchoolSystem.ViewModels/1.0.0": {
+        "runtime": {
+          "SchoolSystem.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -511,6 +517,11 @@
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
     "SchoolSystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SchoolSystem.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

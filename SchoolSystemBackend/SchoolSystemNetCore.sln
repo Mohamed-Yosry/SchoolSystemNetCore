@@ -11,19 +11,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{EAB3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentaion", "Presentaion", "{17DD2B91-B613-4D2F-BB6F-9BED9CC73CE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem.API", "SchoolSystem.API\SchoolSystem.API.csproj", "{C28BB551-6B5B-48D3-9233-C8E14D45F2F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSystem.API", "SchoolSystem.API\SchoolSystem.API.csproj", "{C28BB551-6B5B-48D3-9233-C8E14D45F2F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem.Service", "SchoolSystem.Service\SchoolSystem.Service.csproj", "{CF793505-BF36-40C8-944B-46577D861777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSystem.Service", "SchoolSystem.Service\SchoolSystem.Service.csproj", "{CF793505-BF36-40C8-944B-46577D861777}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem.Service.Contract", "SchoolSystem.Service.Contract\SchoolSystem.Service.Contract.csproj", "{1669FB16-BE8D-49FC-833C-26A96BB432F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSystem.Service.Contract", "SchoolSystem.Service.Contract\SchoolSystem.Service.Contract.csproj", "{1669FB16-BE8D-49FC-833C-26A96BB432F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem.Controllers", "SchoolSystem.Controllers\SchoolSystem.Controllers.csproj", "{C770515B-8C2C-44BB-9007-F6E1C3DCE910}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSystem.Controllers", "SchoolSystem.Controllers\SchoolSystem.Controllers.csproj", "{C770515B-8C2C-44BB-9007-F6E1C3DCE910}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem.PresistenceDB", "SchoolSystem.PresistenceDB\SchoolSystem.PresistenceDB.csproj", "{EF3A5901-D6F2-43B7-A360-ABE9C101FCAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSystem.PresistenceDB", "SchoolSystem.PresistenceDB\SchoolSystem.PresistenceDB.csproj", "{EF3A5901-D6F2-43B7-A360-ABE9C101FCAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem.Domain", "SchoolSystem.Domain\SchoolSystem.Domain.csproj", "{5E9F8B41-5B8F-4124-AEEB-6BC5A37F7861}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSystem.Domain", "SchoolSystem.Domain\SchoolSystem.Domain.csproj", "{5E9F8B41-5B8F-4124-AEEB-6BC5A37F7861}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem.Domain.Shared", "SchoolSystem.Domain.Shared\SchoolSystem.Domain.Shared.csproj", "{5ED1D84F-FC62-441F-BD09-7552E45A3293}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSystem.Domain.Shared", "SchoolSystem.Domain.Shared\SchoolSystem.Domain.Shared.csproj", "{5ED1D84F-FC62-441F-BD09-7552E45A3293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem.ViewModels", "SchoolSystem.ViewModels\SchoolSystem.ViewModels.csproj", "{C99E9C9B-A59D-4EF0-B32D-BE3DA69C2076}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{5ED1D84F-FC62-441F-BD09-7552E45A3293}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ED1D84F-FC62-441F-BD09-7552E45A3293}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ED1D84F-FC62-441F-BD09-7552E45A3293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99E9C9B-A59D-4EF0-B32D-BE3DA69C2076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99E9C9B-A59D-4EF0-B32D-BE3DA69C2076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99E9C9B-A59D-4EF0-B32D-BE3DA69C2076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99E9C9B-A59D-4EF0-B32D-BE3DA69C2076}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +76,7 @@ Global
 		{EF3A5901-D6F2-43B7-A360-ABE9C101FCAC} = {197C7784-D997-4171-8E33-FECC9BE8D6A0}
 		{5E9F8B41-5B8F-4124-AEEB-6BC5A37F7861} = {2B210417-EE6D-4655-8684-137351BC449B}
 		{5ED1D84F-FC62-441F-BD09-7552E45A3293} = {2B210417-EE6D-4655-8684-137351BC449B}
+		{C99E9C9B-A59D-4EF0-B32D-BE3DA69C2076} = {17DD2B91-B613-4D2F-BB6F-9BED9CC73CE0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0FCD466-0A32-4C42-A6B1-BE1806EB430A}

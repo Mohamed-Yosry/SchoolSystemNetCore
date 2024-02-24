@@ -120,3 +120,6 @@ E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.API\bin\Debug\
 E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.API\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.API\bin\Debug\net6.0\SchoolSystem.ViewModels.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.API\bin\Debug\net6.0\SchoolSystem.ViewModels.pdb

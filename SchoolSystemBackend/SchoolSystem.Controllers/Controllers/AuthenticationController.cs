@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SchoolSystem.Domain.Models.AuthenticationModels;
 using SchoolSystem.Service.Contract.DTO;
@@ -82,6 +84,27 @@ namespace SchoolSystem.Controllers.Controllers
             if(!result)
                 return BadRequest("Token is invalid");
             return Ok();
+        }
+        [HttpGet("signin-google")]
+        public IActionResult SignInWithGoogle()
+        {
+            var properties = new AuthenticationProperties
+            {
+                RedirectUri = Url.Action(nameof(HandleGoogleCallback))
+            };
+
+            return Challenge(properties, GoogleDefaults.AuthenticationScheme);
+        }
+
+        [HttpGet("google-callback")]
+        public async Task<IActionResult> HandleGoogleCallback()
+        {
+            // Handle the callback and access user information
+            var authenticateResult = await HttpContext.AuthenticateAsync();
+
+            // Your logic to process the authenticated user (e.g., create an account, log in)
+
+            return Ok(authenticateResult.Principal.Claims);
         }
 
         /// <summary>
