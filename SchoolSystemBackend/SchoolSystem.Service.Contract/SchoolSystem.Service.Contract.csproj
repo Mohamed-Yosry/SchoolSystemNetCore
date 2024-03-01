@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SchoolSystem.Domain.Shared\SchoolSystem.Domain.Shared.csproj" />
     <ProjectReference Include="..\SchoolSystem.Domain\SchoolSystem.Domain.csproj" />
     <ProjectReference Include="..\SchoolSystem.ViewModels\SchoolSystem.ViewModels.csproj" />
   </ItemGroup>

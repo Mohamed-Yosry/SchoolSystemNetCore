@@ -1538,6 +1538,16 @@
           "bin/placeholder/SchoolSystem.Domain.dll": {}
         }
       },
+      "SchoolSystem.Domain.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SchoolSystem.Domain.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SchoolSystem.Domain.Shared.dll": {}
+        }
+      },
       "SchoolSystem.Service.Contract/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1545,6 +1555,7 @@
           "AutoMapper": "12.0.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
           "SchoolSystem.Domain": "1.0.0",
+          "SchoolSystem.Domain.Shared": "1.0.0",
           "SchoolSystem.ViewModels": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "7.0.3"
         },
@@ -4765,6 +4776,11 @@
       "type": "project",
       "path": "../SchoolSystem.Domain/SchoolSystem.Domain.csproj",
       "msbuildProject": "../SchoolSystem.Domain/SchoolSystem.Domain.csproj"
+    },
+    "SchoolSystem.Domain.Shared/1.0.0": {
+      "type": "project",
+      "path": "../SchoolSystem.Domain.Shared/SchoolSystem.Domain.Shared.csproj",
+      "msbuildProject": "../SchoolSystem.Domain.Shared/SchoolSystem.Domain.Shared.csproj"
     },
     "SchoolSystem.Service.Contract/1.0.0": {
       "type": "project",

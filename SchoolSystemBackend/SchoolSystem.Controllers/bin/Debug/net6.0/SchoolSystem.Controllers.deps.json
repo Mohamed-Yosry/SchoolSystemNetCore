@@ -783,11 +783,17 @@
           "SchoolSystem.Domain.dll": {}
         }
       },
+      "SchoolSystem.Domain.Shared/1.0.0": {
+        "runtime": {
+          "SchoolSystem.Domain.Shared.dll": {}
+        }
+      },
       "SchoolSystem.Service.Contract/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
           "SchoolSystem.Domain": "1.0.0",
+          "SchoolSystem.Domain.Shared": "1.0.0",
           "SchoolSystem.ViewModels": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "7.0.3"
         },
@@ -1446,6 +1452,11 @@
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
     "SchoolSystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SchoolSystem.Domain.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

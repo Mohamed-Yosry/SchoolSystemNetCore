@@ -30,3 +30,5 @@ E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service.Contra
 E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service.Contract\obj\Debug\net6.0\ref\SchoolSystem.Service.Contract.dll
 E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service.Contract\bin\Debug\net6.0\SchoolSystem.ViewModels.dll
 E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service.Contract\bin\Debug\net6.0\SchoolSystem.ViewModels.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service.Contract\bin\Debug\net6.0\SchoolSystem.Domain.Shared.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service.Contract\bin\Debug\net6.0\SchoolSystem.Domain.Shared.pdb

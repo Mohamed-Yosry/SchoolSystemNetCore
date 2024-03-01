@@ -1,13 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SchoolSystem.PresistenceDB.DbContext;
 using SchoolSystem.Service.Contract.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace SchoolSystem.Service.Services
 {
@@ -20,7 +14,7 @@ namespace SchoolSystem.Service.Services
             _context = context;
         }
 
-        public async Task<Entity?> Create(Entity entity)
+        public async Task<Entity?> CreateAsync(Entity entity)
         {
             var result = await _context.Set<Entity>().AddAsync(entity);
             if (result != null)
@@ -36,7 +30,7 @@ namespace SchoolSystem.Service.Services
             return false;
         }
 
-        public async Task<IEnumerable<Entity>> Find(Expression<Func<Entity, bool>> match, string[] Includes = null)
+        public async Task<IEnumerable<Entity>> FindAsync(Expression<Func<Entity, bool>> match, string[] Includes = null)
         {
             var query = _context.Set<Entity>();
             if(Includes != null)
@@ -45,7 +39,7 @@ namespace SchoolSystem.Service.Services
             return await query.Where(match).ToListAsync();
         }
 
-        public async Task<IEnumerable<Entity>> FindAll(Expression<Func<Entity, bool>> match, int? skip, int? take, 
+        public async Task<IEnumerable<Entity>> FindAllAsync(Expression<Func<Entity, bool>> match, int? skip, int? take, 
             Expression<Func<Entity, object>> orderBy = null, string orderByDirection = "ASC", string[] Includes = null)
         {
             IQueryable<Entity> query = _context.Set<Entity>();//.Where(match);
@@ -71,12 +65,12 @@ namespace SchoolSystem.Service.Services
             return await query.ToListAsync();
         }
 
-        public IEnumerable<Entity> GetAll()
+        public async Task<IEnumerable<Entity>> GetAllAsync()
         {
-            return _context.Set<Entity>().ToList();
+            return await _context.Set<Entity>().ToListAsync();
         }
 
-        public async Task<Entity> GetById(object Id)
+        public async Task<Entity> GetByIdAsync(object Id)
         {
             return await _context.Set<Entity>().FindAsync(Id);
         }

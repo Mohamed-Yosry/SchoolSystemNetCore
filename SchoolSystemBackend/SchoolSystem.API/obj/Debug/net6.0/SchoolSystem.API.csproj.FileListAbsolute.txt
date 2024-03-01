@@ -123,3 +123,5 @@ E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.API\bin\Debug\
 E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
 E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.API\bin\Debug\net6.0\SchoolSystem.ViewModels.dll
 E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.API\bin\Debug\net6.0\SchoolSystem.ViewModels.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.API\bin\Debug\net6.0\SchoolSystem.Domain.Shared.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.API\bin\Debug\net6.0\SchoolSystem.Domain.Shared.pdb

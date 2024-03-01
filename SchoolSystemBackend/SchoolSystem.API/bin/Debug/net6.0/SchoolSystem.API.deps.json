@@ -1136,6 +1136,11 @@
           "SchoolSystem.Domain.dll": {}
         }
       },
+      "SchoolSystem.Domain.Shared/1.0.0": {
+        "runtime": {
+          "SchoolSystem.Domain.Shared.dll": {}
+        }
+      },
       "SchoolSystem.PresistenceDB/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
@@ -1150,6 +1155,7 @@
       "SchoolSystem.Service/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
+          "SchoolSystem.Domain.Shared": "1.0.0",
           "SchoolSystem.PresistenceDB": "1.0.0",
           "SchoolSystem.Service.Contract": "1.0.0"
         },
@@ -1162,6 +1168,7 @@
           "AutoMapper": "12.0.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
           "SchoolSystem.Domain": "1.0.0",
+          "SchoolSystem.Domain.Shared": "1.0.0",
           "SchoolSystem.ViewModels": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "7.0.3"
         },
@@ -2014,6 +2021,11 @@
       "sha512": ""
     },
     "SchoolSystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SchoolSystem.Domain.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

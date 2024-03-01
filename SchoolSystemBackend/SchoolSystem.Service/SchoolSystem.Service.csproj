@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SchoolSystem.Domain.Shared\SchoolSystem.Domain.Shared.csproj" />
     <ProjectReference Include="..\SchoolSystem.PresistenceDB\SchoolSystem.PresistenceDB.csproj" />
     <ProjectReference Include="..\SchoolSystem.Service.Contract\SchoolSystem.Service.Contract.csproj" />
   </ItemGroup>

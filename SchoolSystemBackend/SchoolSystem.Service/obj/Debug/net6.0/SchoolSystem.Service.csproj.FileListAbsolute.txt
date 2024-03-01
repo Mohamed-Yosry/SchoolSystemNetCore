@@ -36,3 +36,5 @@ E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\bin\De
 E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.ViewModels.dll
 E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.PresistenceDB.pdb
 E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.ViewModels.pdb
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Domain.Shared.dll
+E:\My-Github\SchoolSystemNetCore\SchoolSystemBackend\SchoolSystem.Service\bin\Debug\net6.0\SchoolSystem.Domain.Shared.pdb
